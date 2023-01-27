@@ -1,0 +1,13 @@
+.cardstyle{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 270px;
+  height: 270px;
+  margin-top: 80px;
+  margin-right: 80px;
+  border: 3px solid #fff;
+  border-style: dashed;
+}
+
+

@@ -1,0 +1,14 @@
+
+.cardstyle{
+  /* display:flex; */
+  width: 60%;
+  max-width: 30rem;
+  height: 60% !important;
+  padding: 1rem 2rem;
+  background-color: #141416;
+  border: 1px solid #353945;
+  border-radius: 0.2rem;
+  margin: 2rem 0;
+  text-align: center;
+  position: relative;
+}

@@ -11,6 +11,11 @@
     @apply fixed flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6;
   }
 }
+@layer base {
+  footer{
+  @apply bg-black text-white;
+  }
+}
 
 
 @layer components {
@@ -24,4 +29,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.footer-parent{
+ display:flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ padding-left: 10%;
+ 
+}
+
+.footer-child{
+flex: 33%;
 }

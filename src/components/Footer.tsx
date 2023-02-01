@@ -3,14 +3,16 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer className='footer'>
-      <div className = 'footer-parent'>
-        <ul className=' footer-child block text-[#fff] font-dm text-[18px] font-semibold'>
+    <footer className='footer  text-[#fff] font-dm text-[18px] font-semibold'>
+     
+        <ul className=' footer-logo pl-10 pt-10'>
             <li className='pt-2'>
                 <Link href="/"><img src="/img/logo.png" alt="Qlip logo" /></Link>
             </li>
         </ul>
+        
 
+        <div className = 'footer-parent'>
         <ul className=' footer-child'>
             <li className='pt-2'>
                 <Link href="/">Mint Store</Link>
@@ -46,8 +48,10 @@ function Footer() {
                 <Link href="https://www.linkedin.com/company/cryptosmartnow">Medium</Link>
             </li>
         </ul>
+        </div>
+        </footer>
 
-         {/* <ul className=' footer-child'>
+         /* <ul className=' footer-child'>
             <li className='pt-2'>
                 <Link href="https://www.instagram.com/cryptosmart">Instagram</Link>
             </li>
@@ -60,9 +64,8 @@ function Footer() {
             <li className='pt-2'>
                 <Link href="https://discord.com/invite/XkWWY6rBcH">Discord</Link>
             </li>
-        </ul> */}
-      </div>
-    </footer>
+        </ul> */
+     
   )
 }
 

@@ -29,10 +29,10 @@ function Footer() {
             </li>
         </ul>
 
-        <ul className=' footer-child'>
-            <li className='pt-2'>
+        <ul className=' footer-child'> 
+            {/* <li className='pt-2'>
                 <Link href="https://www.cryptosmartnow.io/">Website</Link>
-            </li>
+            </li>  */}
             <li className='pt-2'>
                 <Link href="https://twitter.com/cryptosmartnow">Twitter</Link>
             </li>

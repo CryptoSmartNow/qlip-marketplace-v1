@@ -30,18 +30,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footer-logo{
-  padding-left: 10%;
-  padding-top:10%;
+.footer{
+  display:flex;
 }
-.footer-parent{
- display:inline-flex;
+.footer-parent{     
+ display:flex;
  flex-direction: row;
- padding-left:35%;
- 
+  padding:10%; 
 }
-
 .footer-child{
-flex: 2;
-padding:25%;
+   padding-left:25px;
+   padding-right: 25px; 
 }

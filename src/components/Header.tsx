@@ -1,13 +1,12 @@
 import Link from 'next/link'
 import ConnectWallet from './ConnectWallet'
-
+import Hero from './Hero'
 function Header() {
   return (
     <header className='header'>
       <div className='pt-2'>
         <img src="/img/logo.png" alt="" />
       </div>
-      <div>
         <ul className='flex space-x-8  text-[#fff] font-dm text-[18px] font-semibold'>
           <li className='pt-2'>
             <Link href="/">Marketplace</Link>
@@ -28,8 +27,8 @@ function Header() {
             <ConnectWallet />
           </div>
         </ul>
-      </div>
     </header>
+    
   )
 }
 

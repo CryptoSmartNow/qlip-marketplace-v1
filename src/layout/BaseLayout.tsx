@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 
 type DashboardLayoutProps = {
@@ -9,8 +10,10 @@ type DashboardLayoutProps = {
 function BaseLayout({ children }: DashboardLayoutProps) {
   return (
     <>
-      <Header/>
-      <main>{ children }</main>
+    
+      <Header/> 
+      <main>{children}</main>
+      <Hero/>
       <Footer/>
     </>
   )

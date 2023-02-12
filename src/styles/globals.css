@@ -7,21 +7,22 @@
   /* body {
     @apply bg-white font-Pop;
   } */
-  header {
-    @apply fixed flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6;
-  }
-}
-@layer base {
-  footer{
-  @apply bg-black text-white;
-  }
 }
 
 
 @layer components {
-  .bg-hero {
-    @apply h-[100vh] w-[100%];
+  
+  header {
+    @apply fixed flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6;
   }
+
+  .bg-hero {
+    @apply h-[130vh] w-[100%];
+  }
+   footer{
+  @apply bg-black text-white;
+  }
+  
 }
 
 .hero {
@@ -30,15 +31,89 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footer{
-  display:flex;
+ .nftText{
+  position: absolute;
+  top: 290px;
+  left: 25px;
+  width: 500px;
+  height: 160px;
+  margin-top: 50px;
+  margin-left: 100px;
+ }
+  .card{
+  position: absolute;
+  top: 90px;
+  right: 35px;
+  width: 300px;
+  height: 230px;
+  margin-top: 70px;
+  margin-right: 100px;
+  border: 3px solid #fff;
+  border-style: dashed;
+  padding-right:20px;
 }
-.footer-parent{     
- display:flex;
- flex-direction: row;
-  padding:10%; 
+
+.create{
+  background: linear-gradient(180deg, #5429E1 0%, #441EBF 100%);
+  height: 74px;
+  width: 300px;
+  position: absolute;
+  top: 400px;
+  left: -870px;
+  border-radius: 71px;
+  fill: Linear Gradient(#5429E1 0%, #441EBF 100%);
+  font-family: DM Sans;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 31px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: Top;
+   margin:auto;
+   margin-left: 40%;
+}
+
+.explore{
+  background: rgba(255, 255, 255, 1);
+  fill:#fff;
+  height: 74px;
+  width: 300px;
+  position: absolute;
+  top: 400px;
+  left: -550px;
+  border-radius: 71px;
+  font-family: DM Sans;
+  font-style: Bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 31px;
+  line-height: 100%;
+  vertical-align: Top;
+  margin:auto; 
+  margin-left: 40%; 
+  color:#000000;
+}
+
+.footer{
+  padding-top: 20px;
+  display:flex;
+  height:40vh
+}
+.footer-logo{
+  top: 20%;
+  left: 15%;
+  font-size: 3rem;
+}
+.footer-parent {     
+  display:flex;
+  flex-direction: row;
+  padding-left: 15%;  
 }
 .footer-child{
-   padding-left:25px;
-   padding-right: 25px; 
+  padding-left:25px;
+  padding-right: 25px; 
 }
+ .footer-child a{
+  font-family: sans-serif;
+  font-size: 1rem;
+ }

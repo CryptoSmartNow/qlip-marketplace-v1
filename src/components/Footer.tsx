@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className='footer  text-[#fff] font-dm text-[18px] font-semibold pb-10'>
      
-        <ul className='footer-parent footer-logo pl-10 pt-10'>
+        <ul className='footer-parent footer-logo'>
             <li className='pt-2'>
                 <Link href="/"><img src="/img/logo.png" alt="Qlip logo" /></Link>
             </li>

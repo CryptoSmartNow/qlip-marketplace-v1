@@ -19,9 +19,6 @@
   .bg-hero {
     @apply h-[130vh] w-[100%];
   }
-   footer{
-  @apply bg-black text-white;
-  }
   
 }
 

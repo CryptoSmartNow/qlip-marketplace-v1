@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer className='footer  text-[#fff] font-dm text-[18px] font-semibold pb-10'>
+    <footer className='footer bg-black text-[#fff] font-dm text-[18px] font-semibold pb-10'>
      
         <ul className='footer-parent footer-logo'>
             <li className='pt-2'>

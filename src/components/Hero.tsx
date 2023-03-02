@@ -1,7 +1,7 @@
 
 function Hero() {
   return (
-    <div className='container flex space-x-8 mt-10'>
+    <div className=' container block md:flex md:space-x-8 md:mt-10'>
 
           <div className ='child flex-start text-white nftText'>
             <h1 className='p-5 text-5xl tw-bold' >NFT Marketplace for African Creators</h1>
@@ -16,11 +16,8 @@ function Hero() {
             <h4 className ='text-xl pd-1'>20,000 QLIP 1 of 1</h4>
             <button className='child create'>Create</button>
             <button className='child explore font-font-dm'>Explore</button>
-          </div>
-            
+          </div>      
     </div>
-
-   
   )
 }
 

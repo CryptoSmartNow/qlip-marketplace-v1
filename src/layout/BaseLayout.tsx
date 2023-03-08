@@ -14,7 +14,7 @@ function BaseLayout({ children }: DashboardLayoutProps) {
     <div className="hidden lg:block">
         <Header />
       </div>
-      <div className=" lg:hidden">
+      <div className="lg:hidden">
         <MobileNav/>
       </div>
       <main>{children}</main>

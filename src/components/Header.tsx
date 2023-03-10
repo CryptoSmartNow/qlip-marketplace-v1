@@ -6,7 +6,7 @@ function Header() {
       <div className='pt-2'>
         <Link href="/"><img src="/img/logo.png" alt="Qlip logo" /></Link> 
       </div>
-        <ul className='flex space-x-[75px] text-[#fff] font-dm text-[18px] font-semibold'>
+        <ul className='flex space-x-[75px] text-[#fff] font-dm text-[16px] font-semibold'>
           <li className='pt-2'>
             <Link href="/">Marketplace</Link>
           </li>

@@ -14,7 +14,7 @@ function MobileNav(){
   return (
     <>
      <header className='header'>
-      <div className="flex flex-row  text-center justify-between gap-5 flex-wrap p-7">
+      <div className="flex flex-row  text-center justify-between flex-wrap w-full">
         <div className=' inline-flex p-3'>
           <Link href="/"><img src="/img/logo.png" alt="" /></Link>  
           </div>

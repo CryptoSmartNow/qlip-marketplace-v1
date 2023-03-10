@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
 
 
 type DashboardLayoutProps = {
@@ -18,7 +17,6 @@ function BaseLayout({ children }: DashboardLayoutProps) {
         <MobileNav/>
       </div>
       <main>{children}</main>
-      <Hero/>
       <Footer/>
     </>
   )

@@ -45,7 +45,7 @@ function MobileNav(){
             active ? "" : "hidden"
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className="inline-flex  ml-auto w-auto items-start flex-col h-auto">
+          <div className="inline-flex  ml-auto w-auto items-start flex-col h-auto bg-black">
             <Link href="/">
               <div className="inline-flex lg:w-auto px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ">
                 Marketplace

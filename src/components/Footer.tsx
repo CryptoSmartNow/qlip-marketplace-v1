@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer className='lg:flex bg-black px-20 py-10 text-white'>
+    <footer className='block lg:flex bg-black px-20 py-10 text-white'>
       <div className='py-10'>
         <img src="/img/logo.png" alt="Qlip logo" />
       </div>

@@ -1,4 +1,5 @@
 
+import Hero from '@/components/Hero'
 import Head from 'next/head'
 
 export default function Home() {
@@ -11,9 +12,7 @@ export default function Home() {
         <link rel="icon" href="/img/favico.png" />
       </Head> 
       
-      <div className='hero bg-hero'>
-
-      </div>
+        <Hero />
       </>
       )
 }

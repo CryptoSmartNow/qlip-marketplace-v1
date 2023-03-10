@@ -1,26 +1,27 @@
 
 function Hero() {
   return (
-    <div className='block lg:flex lg:space-x-8 md:mt-10 text-xl '>
+    <div className='hero lg:h-[100vh] pt-10 px-10 pb-20 text-white'>
 
-         <div className ='hidden lg:block p-6 absolute top-[90px] right-[2px] mt-[70px] mr-[60px] border-4 border-dashed text-white
-         h-[300px] w-[320px] pr-[20px]'>
-            <h2 className ='text-[30px] p-1'>Ancient Underwater ruin of Oshun</h2>
-            <p className ='text-[15px] p-1'>oshun is considered one of the most powerful of all orishas,her temple is filled with treasures and water ruin magic</p>
-            <h4 className ='text-[30px] pb-1'>20,000 QLIP 1 of 1</h4>
-          </div>      
+      <div className="hidden lg:block float-right w-[341px] text-white border-dashed border-2 border-white p-10 mt-20">
+        <div>
+          <h2 className="text-[24px] font-bold">
+            Ancient Underwater ruin of Oshun
+          </h2>
+          <p className="text-[12px] text-[#F3F3F3AD]">Oshun is considered one of the most powerful of all orishas, her temple is filled with treasures and water rune magic.</p>
+          <p className="text-[14px] font-bold pt-2">20,000 QLIP   1 of 1</p>
+        </div>
+      </div>
 
-          <div>
-            <div>
-            <h1 className='p-2 text-3xl tw-bold lg:text-5xl tw-bold lg:absolute top-[290px] left-[25px] w-[550px] h-[160px] mt-[50px] mr-[100px] text-white'>
-              NFT Marketplace for African Creators</h1>
-            <p className='p-2 tw-bold text-xl text-center align-center lg:text-2xl tw-bold lg:absolute top-[400px] left-[25px] w-[550px] h-[160px] mt-[50px] mr-[100px] text-white'>create,explore and trade in the first ever African ever owned NFT Marketplace</p>
-            </div>
-            <button className='mt-[150px] h-[80px] w-[280px]  lg:block absolute top-[410px] left-[-450px] bg-black font-font-dm  h-[65px] w-[270px] 
-             rounded-[71px] fill-blue font-sans text-bolder font-[35px] text-center align-top m-auto ml-[40%] leading-8 text-white  cursor-pointer'>Create</button>
-            <button className='mt-[150px] h-[80px] w-[280px] lg:block absolute top-[410px] left-[-168px] bg-white h-[65px] w-[270px] 
-             rounded-[71px] fill-white font-sans text-bolder font-[35px] text-center align-top m-auto ml-[40%] leading-8 font-font-dm text-black  cursor-pointer'>Explore</button>
-          </div>
+      <div className="mt-16 lg:mt-72">
+        <p className="text-[30px] lg:text-[34px] font-bold lg:w-[400px]">NFT Martkeplace for African Creators</p>
+        <p className="text-[18px] lg:text-[20px] text-[#F3F3F3AD] lg:w-1/2 font-medium">Create, explore and trade in the first-ever African owned  NFT Markeplace.</p>
+        <div className="mt-4">
+          <button className="px-8 lg:px-16 py-3 bg-[#5429E1] rounded-full text-[18px] font-bold mr-8">Create</button>
+          <button className="px-8 lg:px-16 py-3 bg-white text-black rounded-full text-[18px] font-bold">Explore</button>
+        </div>
+      </div>
+
     </div>
 
     

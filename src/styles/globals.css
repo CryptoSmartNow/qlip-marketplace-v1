@@ -3,21 +3,10 @@
 @tailwind utilities;
 
 
-@layer base {
-  body {
-    @apply m-0 p-0 overflow-x-hidden;
-  }
-}
-
-
 @layer components {
   
   header {
-    @apply fixed flex w-full space-x-[100px] px-4 py-4 transition-all px-10 py-6;
-  }
-
-  .bg-hero {
-    @apply h-[130vh] w-[100%];
+    @apply fixed flex w-full px-8 py-4 transition-all justify-between;
   }
   
 }

@@ -14,13 +14,13 @@ function MobileNav(){
   return (
     <>
      <header className='header'>
-      <div className="flex flex-row  text-center justify-between flex-wrap w-full">
+      <div className="flex flex-row  text-center justify-between flex-wrap w-full bg-[#000089] transition ease-in-out delay-150 hover:-translate-x-1 hover:scale-110 hover:bg-[#000089] duration-300 z-10 rounded-md shadow-md p-2  divide-y h-auto">
         <div className=' inline-flex p-3'>
           <Link href="/"><img src="/img/logo.png" alt="" /></Link>  
           </div>
         <div>
           <button
-          className='ml-auto flex p-3 rounded text-white hover:text-white outline-none md:hidden'
+          className=' ml-auto flex p-3 rounded text-white hover:text-white outline-none md:hidden '
           onClick={handleClick}
         >
           <svg
@@ -43,9 +43,9 @@ function MobileNav(){
         <div
           className={`${
             active ? "" : "hidden"
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
-        >
-          <div className="inline-flex  ml-auto w-auto items-start flex-col h-auto bg-black">
+          }   w-full lg:inline-flex lg:flex-grow lg:w-auto pt-5 `}
+        > 
+          <div className="inline-flex  ml-0 w-auto items-start flex-col h-auto">
             <Link href="/">
               <div className="inline-flex lg:w-auto px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ">
                 Marketplace

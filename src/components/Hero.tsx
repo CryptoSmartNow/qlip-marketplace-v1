@@ -8,7 +8,7 @@ function Hero() {
           <h2 className="text-[24px] font-bold">
             Ancient Underwater ruin of Oshun
           </h2>
-          <p className="text-[12px] text-[#F3F3F3AD]">Oshun is considered one of the most powerful of all orishas, her temple is filled with treasures and water rune magic.</p>
+          <p className="text-[12px] text-[#f3f3f3ad]">Oshun is considered one of the most powerful of all orishas, her temple is filled with treasures and water rune magic.</p>
           <p className="text-[14px] font-bold pt-2">20,000 QLIP   1 of 1</p>
         </div>
       </div>

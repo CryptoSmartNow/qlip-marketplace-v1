@@ -6,7 +6,7 @@
 @layer components {
   
   header {
-    @apply fixed flex w-full px-8 py-4 transition-all justify-between;
+    @apply fixed flex w-full p-3 transition-all;
   }
   
 }

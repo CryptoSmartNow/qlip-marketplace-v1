@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import MobileNav from "@/components/MobileNav";
+import NFTCaption from "@/components/NFTCaption";
 import Footer from "@/components/Footer";
+
 
 
 type DashboardLayoutProps = {
@@ -16,7 +18,8 @@ function BaseLayout({ children }: DashboardLayoutProps) {
       <div className="lg:hidden">
         <MobileNav/>
       </div>
-      <main>{children}</main>
+     <main>{children}</main> 
+     <div><NFTCaption/></div>
       <Footer/>
     </>
   )

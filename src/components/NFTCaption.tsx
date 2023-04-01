@@ -116,13 +116,13 @@ function NFTCaption() {
       </div>
   </div>
 
-      <div className='flex flex-row space-x-5 pt-10'>
+      <div className='pt-5 sm:block lg:flex lg:flex-row lg:space-x-5 lg:pt-10'>
       <h2 className ='lg:pl-[8%] text-2xl'>MARKETPLACE</h2>
           <input type="text text-bold text-5" value="Search for items, collections and accounts" className='text-black border-3 border-black-800 rounded-lg text-3 text-center justify-center w-[50%]'/>
           </div>
          
         <div>
-          <ul className="pt-5 flex flex-row space-x-5 lg:pl-[8%]">
+          <ul className=" pt-5 sm:block lg:pt-5 lg:flex lg:flex-row lg:space-x-5 lg:pl-[8%]">
             <li className="hover:bg-black tex-white">Art</li>
             <li className="hover:bg-black tex-white">All Items</li>
             <li className='hover:bg-black tex-white'>Photography</li>

@@ -14,7 +14,7 @@ function MobileNav(){
   return (
     <>
      <header className='header'>
-      <div className="flex flex-row flex-wrap w-[100%] bg-[#00008B] delay-300 hover:scale-100 hover:bg-[#00008B] duration-300 rounded-lg divide-y">
+      <div className="flex flex-row flex-wrap shrink  m-auto w-[95%] bg-[#00008B] delay-300 hover:scale-102 hover:bg-[#00008B] duration-300 rounded-lg divide-y">
         <div className='p-1 mr-auto'>
           <Link href="/"><img src="/img/logo.png" alt="" /></Link>  
           </div>
@@ -44,9 +44,9 @@ function MobileNav(){
         <div
           className={`${
             active ? "" : "hidden"
-          } w-[40vh] h-[40vh] lg:inline-flex lg:grow lg:item-center p-3 `}
+          }  lg:inline-flex lg:grow lg:item-center p-3 `}
         > 
-          <div className="">
+          <div className="h-[40vh] w-[40vh]">
             <Link href="/">
               <div className="inline-flex lg:w-auto px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ">
                 Marketplace

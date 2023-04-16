@@ -11,8 +11,8 @@ function Header() {
 
   return (
     <header className={`${
-            bgColor ? 'bg-blue-700' : 'bg-black-300'} header}`}
-     onScroll = {changeToBlack}>
+            bgColor ? 'bg-blue-700' : 'bg-black'} header}`}
+     onMouseEnter = {changeToBlack}>
 
 
       <div className='pt-2'>

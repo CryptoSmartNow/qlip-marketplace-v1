@@ -1,8 +1,20 @@
 import Link from 'next/link'
 import ConnectWallet from './ConnectWallet'
+import React, { useState } from "react";
 function Header() {
+
+  const [bgColor, setBgColor] = useState(true);
+
+  const changeToBlack = (e:any) => {
+    setBgColor(!bgColor);
+  };
+
   return (
-    <header className='header'>
+    <header className={`${
+            bgColor ? 'bg-blue-700' : 'bg-black-300'} header}`}
+     onScroll = {changeToBlack}>
+
+
       <div className='pt-2'>
         <Link href="/"><img src="/img/logo.png" alt="Qlip logo" /></Link> 
       </div>

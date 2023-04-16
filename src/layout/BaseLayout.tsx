@@ -19,7 +19,6 @@ function BaseLayout({ children }: DashboardLayoutProps) {
         <MobileNav/>
       </div>
      <main>{children}</main> 
-     <div><NFTCaption/></div>
       <Footer/>
     </>
   )
